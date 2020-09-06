@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+    color: #000000DE;
+}
+
+.tab-bar{
+    width: 100%;
+    height: 40px;
+    background-color: #dee1e6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+.tab{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tab-icon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.codersX .tab-icon{
+    border-radius: 50%;
+    background-color: #ae1f0e;
+}
+.codersX .tab-icon span{
+    color: #fff;
+}
+.tab-title{
+    margin-left: 10px;
+}
+.tab.active{
+    background-color: #fff;
+}
+
+.search-bar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+}
+.search-bar-icon{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5px;
+    transition: all 0.1s linear;
+}
+.search-bar-icon i{
+    font-size: 16px;
+    line-height: 2vw;
+    color: #bdbdbd;
+}
+.search-bar-icon.able i{
+    color: #5e5e5e;
+}
+.search-bar-icon.able:hover{
+    background-color: #dee1e6;
+}
+
+.search{
+    width: 83vw;
+    height: 32px;
+    margin: 0 10px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f2f3f5;
+    transition: all 0.1s linear;
+}
+.search:hover{
+    background-color: #dee1e6;
+}
+.search:focus{
+    outline: none;
+    border: 2px solid #bfd6f8;
+    background-color: #fff;
+}
+.profile-img{
+    width: 2vw;
+    height: 2vw;
+}
+.profile-img img{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+
+.bookmark-bar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 2px solid #dcdcdc;
+}
+.bookmark{
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 0 10px;
+    margin-right: 5px;
+}
+.bookmark:hover{
+    background-color: #f2f3f5;
+}
+.bookmark img{
+    width: auto;
+    height: 15px;
+    margin-right:10px;
+}
+.bookmark span{
+    font-size: 12px;
+}
+
+.header{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+}
+.header span{
+    margin-left: 10px;}
+.menu-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.menu-icon:hover{
+    background-color: #dee1e6;
+}
+.menu-icon img{
+    width: 20px;
+    height: 20px;
+}
+.account-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.account-img:hover{
+    background-color: #dee1e6;
+}
+.account-img img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-logo{
+    width: 100%;
+    height: 85px;
+    margin-top: 10vh;
+}
+.google-logo img{
+    width: 335px;
+    height: 85px;
+}
+.search-input{
+    width: 35vw;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    border-radius: 22px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+.search-input i{
+    color: #757575;
+    font-size: 16px;
+}
+.gg-search input{
+    width: 90%;
+    border: none;
+    margin: 0 15px;
+}
+.gg-search input:focus{
+    outline: none;
+}
+
+
+
+.most-visited-item{
+    width: 112px;
+    height: 112px;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.most-visited-item:hover{
+    background-color: #f2f2f2;
+}
+.most-visited-item-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e6e7e9;
+}
+.most-visited-item p{
+    color: #3f4140;
+    font-size: 12px;
+    font-weight: 550;
+    margin-top: 5px;
+}
+.most-visited-item-img img{
+    width: 30px;
+    height: 30px;
+}
